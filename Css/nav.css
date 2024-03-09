@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,700;10..48,800&family=Pacifico&family=Poppins&family=Raleway:wght@300&family=Rubik:wght@300;400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    background: #000;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.div_navigation {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+}
+
+.navigation {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul_for_navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 0 1rem;
+}
+
+
+
+.nav_list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 0.5vw;
+}
+
+.span_list {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    opacity: .8;
+}
+
+.const_span_list_values {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 1.5px;
+}
+
+.name_span_list {
+    font-size: 2.5rem;
+    font-weight: 900;
+    opacity: 1;
+    cursor: default;
+
+}

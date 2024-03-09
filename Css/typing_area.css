@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,700;10..48,800&family=Pacifico&family=Poppins&family=Preahvihear&family=Raleway:wght@300&family=Rubik:wght@300;400&display=swap');
+
+/* Fonts for use  */
+
+/* font-family: 'Borel', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik', sans-serif;
+'Danh Hong' ,
+*/
+
+
+
+.typing_area {
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.textarea_class {
+    width: 40%;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    border: 5px solid #ffffff5f;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    opacity: .8;
+}
+
+.credit {
+    color: #ffffff5f;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+#logo {
+    font-weight: bold;
+}
+
+.credit a {
+    font-weight: bold;
+}

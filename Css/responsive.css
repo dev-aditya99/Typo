@@ -1,0 +1,66 @@
+/* max width  */
+@media (max-width:768px) {
+    .textarea_class {
+        width: 60%;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+
+    .name_span_list {
+        font-size: 2rem !important;
+    }
+
+    .span_list {
+        font-size: 1rem;
+    }
+
+    .div_game_starting_menu {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:511px) {
+    .textarea_class {
+        width: 80%;
+    }
+
+    .ul_for_navigation {
+        gap: 7%;
+    }
+
+    .nav_list {
+        flex-direction: column;
+    }
+
+    .name_span_list {
+        font-size: 1.5rem !important;
+    }
+
+    .span_list {
+        font-size: 0.8rem;
+    }
+
+    .ul_game_mode_menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+
+    .li_game_mode {
+        margin-bottom: 5%;
+    }
+
+    .Play_button_class {
+        font-size: 1.5rem;
+        padding: 8px 20px;
+    }
+
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,700;10..48,800&family=Pacifico&family=Poppins&family=Preahvihear&family=Raleway:wght@300&family=Rubik:wght@300;400&display=swap');
+
+
+.playing_area {
+  width: 100%;
+  background: #000;
+  background-color: #1c1c1c;
+  font-family: 'Preahvihear', sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_playing_area_text {
+  width: 10%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.span_playing_area_text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: .8;
+  cursor: default;
+}
+
+.div_game_starting_menu {
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.div_game_mode_starting_menu {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul_game_mode_menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.li_game_mode {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_game_mode {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #000000;
+  padding: 10px 25px;
+  border: 0.5px solid #a8a4a477;
+  border-radius: 40px;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.button_game_mode:hover {
+  color: #ffffff;
+  background: #e4a10e;
+  transition: all ease 0.2s;
+  opacity: 1;
+
+}
+
+.button_game_mode:active {
+  color: #000000;
+  background: #ffffff;
+}
+
+.button_game_mode:focus {
+  color: #ffffff;
+  background: #e4a10e;
+  opacity: 1;
+}
+
+.div_game_play_button {
+  width: fit-content;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Play_button_class {
+  border: 0.5px solid #ffffff4f;
+  outline: none;
+  background: #fff;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 10px 30px;
+  border-radius: 40px;
+  transition: all ease 0.5s;
+}
+
+.Play_button_class:hover {
+  border: 0.5px solid #ffffff4f;
+  background: #000;
+  color: #ffffff;
+  transition: all ease 0.2s;
+}
+
+
+/* game ending-------------------- */
+.div_game_ending_menu {
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.div_game_mode_ending_menu {
+  width: fit-content;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul_game_mode_ending_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+  padding: 10px;
+}
+
+.li_game_ending {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.span_game_ending_class {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #000000;
+  padding: 10px 25px;
+  border: 0.5px solid #a8a4a477;
+  border-radius: 40px;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  opacity: .8;
+}
+
+
+.div_game_over_and_restart_button {
+  width: fit-content;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.restart_button_class {
+  border: 0.5px solid #ffffff4f;
+  outline: none;
+  background: #fff;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 10px 30px;
+  border-radius: 40px;
+  transition: all ease 0.5s;
+}
+
+.restart_button_class:hover {
+  border: 0.5px solid #ffffff4f;
+  background: #000;
+  color: #ffffff;
+  transition: all ease 0.2s;
+}
