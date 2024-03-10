@@ -109,19 +109,19 @@ const gamePlan = () => {
                 placeValueForEasyMode();
                 targetWordEasyMode--;
                 targetWordvalue.innerText = targetWordEasyMode + " Words";
-                document.querySelector("#_id_span_target_words_class").innerText = "Target : " + targetWordEasyMode;
+                document.querySelector("#_id_span_target_words_class").innerText = "Target : 50 words";
             }
             if (modeValue == 30) {
                 placeValueForMediumMode();
                 targetWordMediumMode--;
                 targetWordvalue.innerText = targetWordMediumMode + " Words";
-                document.querySelector("#_id_span_target_words_class").innerText = "Target : " + targetWordMediumMode;
+                document.querySelector("#_id_span_target_words_class").innerText = "Target : 100 words";
             }
             if (modeValue == 70) {
                 placeValueForHardMode();
                 targetWordHardMode--;
                 targetWordvalue.innerText = targetWordHardMode + " Words";
-                document.querySelector("#_id_span_target_words_class").innerText = "Target : " + targetWordHardMode;
+                document.querySelector("#_id_span_target_words_class").innerText = "Target : 200 words";
             };
             hitedWord++;
             hitedWordvalue.innerText = hitedWord;
@@ -171,7 +171,11 @@ const HardMode = () => {
 }
 
 const TiMeR = () => {
-    document.getElementById("id_for_timer_span_value_list").innerText = sec + "s";
+    if (sec < 10) {
+        document.getElementById("id_for_timer_span_value_list").innerText = "0" + sec + "s";
+    } else {
+        document.getElementById("id_for_timer_span_value_list").innerText = sec + "s";
+    }
     sec--;
 }
 
@@ -202,13 +206,13 @@ const GameOver = () => {
 
     document.querySelector("#_id_span_hited_words_class").innerText = "Hited Words : " + hitedWord;
     if (modeValue == 10) {
-        document.querySelector("#_id_span_time_class").innerText = "Time : " + (119 - sec);
+        document.querySelector("#_id_span_time_class").innerText = "Time : " + (119 - sec) + "s";
     }
     if (modeValue == 30) {
-        document.querySelector("#_id_span_time_class").innerText = "Time : " + (89 - sec);
+        document.querySelector("#_id_span_time_class").innerText = "Time : " + (89 - sec) + "s";
     }
     if (modeValue == 70) {
-        document.querySelector("#_id_span_time_class").innerText = "Time : " + (59 - sec);
+        document.querySelector("#_id_span_time_class").innerText = "Time : " + (59 - sec) + "s";
     };
 
     showGameOver.style.display = "";

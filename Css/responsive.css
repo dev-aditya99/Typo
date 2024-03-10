@@ -20,6 +20,10 @@
         width: 100%;
     }
 
+    .div_game_ending_menu {
+        width: 100%;
+    }
+
 }
 
 
@@ -44,21 +48,20 @@
         font-size: 0.8rem;
     }
 
-    .ul_game_mode_menu {
-        width: 100%;
-        display: flex;
-        align-items: center;
+    .ul_game_mode_menu,
+    .ul_game_mode_ending_menu {
         justify-content: center;
-        padding: 10px;
         flex-wrap: wrap;
         gap: 5%;
     }
 
-    .li_game_mode {
+    .li_game_mode,
+    .li_game_ending {
         margin-bottom: 5%;
     }
 
-    .Play_button_class {
+    .Play_button_class,
+    .restart_button_class {
         font-size: 1.5rem;
         padding: 8px 20px;
     }
